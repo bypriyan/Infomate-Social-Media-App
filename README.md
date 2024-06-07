@@ -38,6 +38,8 @@ Screenshots of the app will be added here to provide a visual overview of the fe
 ![WhatsApp Image 2024-06-07 at 5 53 07 PM (1)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/c77c75ae-6b65-4ff5-9ace-bd4eb0e95fad)
 ![WhatsApp Image 2024-06-07 at 5 53 07 PM (2)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/02f76da8-9c86-4330-a289-e7bda9f05680)
 ![WhatsApp Image 2024-06-07 at 5 53 07 PM](https://github.com/bypriyan/Info![WhatsApp Image 2024-06-07 at 5 53 06 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/db6124a8-8df3-4cdb-b043-e2987348da94)
+![WhatsApp Image 2024-06-07 at 5 53 06 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/af343052-1d66-4e7a-a3d2-2c779d377cd8)
+
 
 
 
