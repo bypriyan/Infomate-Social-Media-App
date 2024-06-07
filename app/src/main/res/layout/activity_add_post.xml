@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activity.AddPostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:id="@+id/addImage"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:background="@drawable/circle_blue"
+                        android:src="@drawable/ic_photo"
+                        android:padding="15dp">
+
+                    </ImageView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/greay"
+                        android:layout_marginTop="10dp"
+                        ></View>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload Image"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/postTitle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="@color/greay"
+            android:padding="@dimen/_5sdp"
+            app:hintTextColor="@color/blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:counterMaxLength="30"
+            app:counterEnabled="true"
+            android:textColor="@color/white"
+            app:counterTextColor="@color/blue"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxStrokeColor="@color/blue">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title.."
+                android:maxLength="30"
+                android:drawablePadding="@dimen/_15sdp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/postDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/lite_greay"
+            android:hint="Enter Description"
+            android:textSize="@dimen/_14ssp"
+            android:inputType="textMultiLine|textCapSentences"
+            android:padding="@dimen/_10sdp"
+            android:singleLine="false"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/background">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/noticeImageView">
+            </ImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="upload"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cornerRadius="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:id="@+id/uploadBtn"
+            android:textColor="@color/white"
+            android:layout_below="@+id/temp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/blue"
+            android:layout_marginBottom="@dimen/_55sdp">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+</ScrollView>

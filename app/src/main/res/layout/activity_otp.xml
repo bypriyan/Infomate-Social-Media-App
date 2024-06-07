@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.OtpActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/office"
+            android:includeFontPadding="false"
+            android:text="@string/otp_code_text"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/office"
+            android:includeFontPadding="false"
+            android:text="verification"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/otp_description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/office"
+            android:includeFontPadding="false"
+            android:text="Enter one time passoword send on "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/phoneLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:text="verify +91 77471"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLength="6"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:outlineSpotShadowColor="@color/black"
+            android:hint="Enter OTP here"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:drawablePadding="@dimen/_15sdp"
+            android:drawableStart="@drawable/ic_otp"
+            android:inputType="number">
+
+        </EditText>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/background"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:id="@+id/submitBtn"
+            android:transitionName="transition_OTP_screen" />
+
+
+    </LinearLayout>
+
+</ScrollView>

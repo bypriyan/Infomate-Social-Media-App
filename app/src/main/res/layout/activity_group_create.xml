@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activity.GroupCreate">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_44sdp"
+        app:civ_border_color="@color/dark_greay"
+        app:civ_border_width="@dimen/_3sdp"
+        android:src="@drawable/ic_user"
+        android:id="@+id/groupImage"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/groupName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/greay"
+        android:layout_margin="@dimen/_15sdp"
+        android:padding="@dimen/_5sdp"
+        app:hintTextColor="@color/blue"
+        app:counterMaxLength="90"
+        android:layout_below="@+id/groupImage"
+        app:counterEnabled="true"
+        android:textColor="@color/white"
+        app:counterTextColor="@color/blue"
+        app:boxCornerRadiusTopStart="@dimen/_10sdp"
+        app:boxStrokeColor="@color/blue">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group Name"
+            android:maxLength="90"
+            android:drawablePadding="@dimen/_15sdp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:inputType="textMultiLine|textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/groupDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:layout_below="@+id/groupName"
+        android:textColorHint="@color/lite_greay"
+        android:hint="Enter Description"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:padding="@dimen/_10sdp"
+        android:singleLine="false">
+
+    </EditText>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_16ssp"
+        app:backgroundTint="@color/blue"
+        app:tint="@android:color/white"
+        android:id="@+id/createGrpBtn"
+
+        android:src="@drawable/ic_check">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

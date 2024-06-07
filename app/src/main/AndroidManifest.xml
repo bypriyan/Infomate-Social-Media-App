@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bypriyan.infomate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfoMate">
+        <activity android:name=".activity.ContectUs"></activity>
+        <activity android:name=".activity.videoCall" />
+        <activity android:name=".activity.FullimageView" />
+        <activity android:name=".activity.GroupEdit" />
+        <activity android:name=".activity.GroupInfo" />
+        <activity android:name=".activity.groupParticipents" />
+        <activity android:name=".activity.groupChat" />
+        <activity android:name=".activity.GroupCreate" />
+        <activity android:name=".activity.PostDetail" />
+        <activity android:name=".activity.ThereProfile" />
+        <activity android:name=".activity.AddPostActivity" />
+        <activity android:name=".activity.Chat" />
+        <activity android:name=".register.OtpActivity" />
+        <activity android:name=".register.MobileNumber" />
+        <activity android:name=".activity.EditProfile" />
+        <activity android:name=".activity.UserProfile" />
+        <activity android:name=".register.SignUp" />
+        <activity android:name=".register.LogIn" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.bypriyan.infomate.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider> <!-- <service android:name=".notifications.FirebaseService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <service
+            android:name=".notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

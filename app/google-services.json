@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "389574736020",
+    "project_id": "infomate-ee6e7",
+    "storage_bucket": "infomate-ee6e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389574736020:android:3f8ad80b3dbd8ac9c15c81",
+        "android_client_info": {
+          "package_name": "com.bypriyan.infomate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389574736020-lbbulde9gcj7o82giq4g3b2nmof0pi4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bypriyan.infomate",
+            "certificate_hash": "5efc85526ec4b074e555441a0859e60392cb13e9"
+          }
+        },
+        {
+          "client_id": "389574736020-chi70frjjsfd6pjov299n65nfqil3qvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoN81gWwbYiqa6ijUYuwrkKwE_e9DJhOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389574736020-chi70frjjsfd6pjov299n65nfqil3qvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

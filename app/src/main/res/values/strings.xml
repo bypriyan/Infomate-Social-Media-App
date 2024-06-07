@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InfoMate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="otp_code_text">code</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check">I have read and Accept the </string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+    </item>
+
+    <item
+        android:id="@+id/addPost"
+        android:title="Add Post"
+        android:icon="@drawable/ic_add"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/setting"
+        android:title="Log Out"
+        android:icon="@drawable/ic_settings"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/addGroup"
+        android:title="Add Group"
+        android:icon="@drawable/ic_add_group"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/addParticipant"
+        android:title="Add Participant"
+        android:icon="@drawable/ic_add_participant"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/videoCall"
+        android:title="Video Call"
+        android:iconTint="@color/white"
+        android:icon="@drawable/video_call"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/bottomSheet"
+        android:title="Bottom sheet"
+        android:icon="@drawable/ic_up"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/groupInfo"
+        android:title="Group Info"
+        android:icon="@drawable/ic_info"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="Log Out"
+        android:icon="@drawable/ic_power"
+        android:iconTint="@color/white"
+        app:showAsAction="always">
+    </item>
+
+
+
+
+</menu>

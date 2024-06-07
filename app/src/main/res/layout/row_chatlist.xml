@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#202433"
+    android:layout_margin="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:contentPadding="@dimen/_3sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/ic_person"
+            android:id="@+id/profileImageUser"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <ImageView
+            android:id="@+id/onlineStatus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:id="@+id/nameUser"
+            android:layout_toRightOf="@id/profileImageUser"
+            android:layout_toLeftOf="@+id/onlineStatus"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lite_greay"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="normal"
+            android:maxLines="2"
+            android:layout_below="@+id/nameUser"
+            android:id="@+id/lastMessageUser"
+            android:layout_toRightOf="@id/profileImageUser"
+            android:layout_toLeftOf="@+id/onlineStatus"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true">
+        </TextView>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

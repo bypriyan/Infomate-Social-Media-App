@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Home">
+
+    <fragment android:id="@+id/navigation_Home"
+        android:name="com.bypriyan.infomate.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_Chat"
+        android:name="com.bypriyan.infomate.ui.chat.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_User"
+        android:name="com.bypriyan.infomate.ui.users.UsersFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_users">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_VideoCall"
+        android:name="com.bypriyan.infomate.ui.videoCall.VideoCallFragment"
+        android:label="Video call"
+        tools:layout="@layout/fragment_video_call">
+    </fragment>
+
+    <fragment android:id="@+id/navigation_website"
+        android:name="com.bypriyan.infomate.ui.WebsiteFragment"
+        android:label="University"
+        tools:layout="@layout/fragment_website">
+    </fragment>
+
+</navigation>
