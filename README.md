@@ -29,16 +29,7 @@ Infomate is a social media Android application that allows users to connect, sha
 ## Screenshots
 
 Screenshots of the app will be added here to provide a visual overview of the features and UI.
-![WhatsApp Image 2024-06-07 at 5 53 10 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/4bb1db50-1f97-4821-b537-de1c815fd459)
-![WhatsApp Image 2024-06-07 at 5 53 09 PM (2)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/e86fa951-5414-44b5-ae88-dbee90e40d31)
-![WhatsApp Image 202![WhatsApp Image 2024-06-07 at 5 53 09 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/01b4f9b0-9a7c-427d-9599-dce25a5ae89b)
-4-06-07 at 5 53 09 PM (1)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/c20419a5-cfc0-4e08-b25d-88903d19762d)
-![WhatsApp Image 2024-06-07 at 5 53 08 PM (1)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/cb2ffb0d-2656-4164-a0f8-e86d12996a0c)
-![WhatsApp Image 2024-06-07 at 5 53 08 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/e016d89e-c46d-4561-8ee6-b4c199eca9ad)
-![WhatsApp Image 2024-06-07 at 5 53 07 PM (1)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/c77c75ae-6b65-4ff5-9ace-bd4eb0e95fad)
-![WhatsApp Image 2024-06-07 at 5 53 07 PM (2)](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/02f76da8-9c86-4330-a289-e7bda9f05680)
-![WhatsApp Image 2024-06-07 at 5 53 07 PM](https://github.com/bypriyan/Info![WhatsApp Image 2024-06-07 at 5 53 06 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/db6124a8-8df3-4cdb-b043-e2987348da94)
-![WhatsApp Image 2024-06-07 at 5 53 06 PM](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/af343052-1d66-4e7a-a3d2-2c779d377cd8)
+![ss](https://github.com/bypriyan/Infomate-Social-Media-App/assets/86232180/02d7e97b-1102-4cdd-b961-e7f2d192887b)
 
 
 
