@@ -19,10 +19,8 @@ Infomate is a social media Android application that allows users to connect, sha
 ## Technologies Used
 
 - **Java**: For Android app development.
-- **PHP**: Backend server-side scripting.
 - **Retrofit**: For making network requests.
 - **Firebase Realtime Database**: For real-time data synchronization.
-- **MySQL**: For database management.
 - **Jitsi SDK**: For implementing video call features.
 - **Firebase Phone Auth**: For phone number authentication.
 
@@ -40,8 +38,6 @@ Screenshots of the app will be added here to provide a visual overview of the fe
 
 - Android Studio
 - Firebase account
-- PHP server
-- MySQL server
 
 ### Installation
 
